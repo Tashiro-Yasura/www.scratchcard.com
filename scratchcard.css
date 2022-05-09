@@ -1,0 +1,47 @@
+
+/*テーブル設定*/
+#tableTitle {
+  border: none;
+  user-select: none;
+}
+
+#tableData {
+	font-size: 15px;
+	border-collapse: collapse;
+  user-select: none;
+}
+
+#tableData th{
+	border: solid 1px;
+  width: 25px;
+}
+
+/*セル設定*/
+#tableData td {
+	border: solid 1px;
+  width: 75px;
+  height: 75px;
+}
+
+.scratchpad{
+  user-select: none;
+  width: 60px;
+  height: 60px;
+  border: none;
+  display: inline-block;
+}
+
+#group{
+  font-size: 20px;
+  width: 450px;
+  text-align: center;
+}
+
+#nowtime{
+  font-size: 12px;
+  text-align: right;
+}
+
+#documentid{
+  font-size: 12px;
+}

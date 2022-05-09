@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
+	    <title></title>
+	    <link rel="stylesheet" type="text/css" href="scratchcard.css?ver=20210720">
+	    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="jquery.cookie.js"></script>
+	    <script type="text/javascript" src="wScratchPad.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script type="text/javascript" src="scratchcard.js?var=20210721"></script>
+	</head>
+	<body>
+        <table id="tableTitle">
+            <tr><td id="documentid"></td><td id="nowtime"></td></tr>
+            <tr><th id="title" colspan="2"></th></tr>
+            <tr><th id="subtitle" colspan="2"></th></tr>
+            <tr><td colspan="2">&emsp;班:<input type="text" id="group" /></td></tr>
+        </table>       
+        <table id="tableData">
+            <thead id="tableHeader">
+                <tr>
+                    <th rowspan="2" colspan="2"></th>
+                    <th id="selectiontitle">選択肢</th>
+                    <th rowspan="2">得点</th>
+                </tr>
+                <tr id="selection"></tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+
+        <div>※ ☆が出たら正解です。</div>
+        <div>※ 削る場所の間違いに十分注意してください。</div>
+        <br>
+        <button type="button" id="capture">画面キャプチャの保存</button>
+    </body>
+</html>
